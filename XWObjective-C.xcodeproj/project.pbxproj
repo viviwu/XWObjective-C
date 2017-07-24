@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0DE4D97B1F25B50100F38781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D97A1F25B50100F38781 /* main.m */; };
+		0DE4D9971F25B56200F38781 /* XWPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D9831F25B56200F38781 /* XWPerson.m */; };
+		0DE4D9981F25B56200F38781 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D9861F25B56200F38781 /* NSObject+Model.m */; };
+		0DE4D9991F25B56200F38781 /* XWExecuter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D9881F25B56200F38781 /* XWExecuter.m */; };
+		0DE4D99A1F25B56200F38781 /* XWobjcBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D98A1F25B56200F38781 /* XWobjcBlock.m */; };
+		0DE4D99B1F25B56200F38781 /* NSArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D98E1F25B56200F38781 /* NSArray+NullSafe.m */; };
+		0DE4D99C1F25B56200F38781 /* NSMutableArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D9901F25B56200F38781 /* NSMutableArray+NullSafe.m */; };
+		0DE4D99D1F25B56200F38781 /* NSMutableDictionary+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D9921F25B56200F38781 /* NSMutableDictionary+NullSafe.m */; };
+		0DE4D99E1F25B56200F38781 /* NSNull+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D9941F25B56200F38781 /* NSNull+NullSafe.m */; };
+		0DE4D99F1F25B56200F38781 /* NSObject+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4D9961F25B56200F38781 /* NSObject+NullSafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,24 @@
 /* Begin PBXFileReference section */
 		0DE4D9771F25B50100F38781 /* XWObjective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XWObjective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE4D97A1F25B50100F38781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DE4D9821F25B56200F38781 /* XWPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWPerson.h; sourceTree = "<group>"; };
+		0DE4D9831F25B56200F38781 /* XWPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWPerson.m; sourceTree = "<group>"; };
+		0DE4D9851F25B56200F38781 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		0DE4D9861F25B56200F38781 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		0DE4D9871F25B56200F38781 /* XWExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWExecuter.h; sourceTree = "<group>"; };
+		0DE4D9881F25B56200F38781 /* XWExecuter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWExecuter.m; sourceTree = "<group>"; };
+		0DE4D9891F25B56200F38781 /* XWobjcBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWobjcBlock.h; sourceTree = "<group>"; };
+		0DE4D98A1F25B56200F38781 /* XWobjcBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWobjcBlock.m; sourceTree = "<group>"; };
+		0DE4D98D1F25B56200F38781 /* NSArray+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NullSafe.h"; sourceTree = "<group>"; };
+		0DE4D98E1F25B56200F38781 /* NSArray+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NullSafe.m"; sourceTree = "<group>"; };
+		0DE4D98F1F25B56200F38781 /* NSMutableArray+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NullSafe.h"; sourceTree = "<group>"; };
+		0DE4D9901F25B56200F38781 /* NSMutableArray+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NullSafe.m"; sourceTree = "<group>"; };
+		0DE4D9911F25B56200F38781 /* NSMutableDictionary+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+NullSafe.h"; sourceTree = "<group>"; };
+		0DE4D9921F25B56200F38781 /* NSMutableDictionary+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+NullSafe.m"; sourceTree = "<group>"; };
+		0DE4D9931F25B56200F38781 /* NSNull+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+NullSafe.h"; sourceTree = "<group>"; };
+		0DE4D9941F25B56200F38781 /* NSNull+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+NullSafe.m"; sourceTree = "<group>"; };
+		0DE4D9951F25B56200F38781 /* NSObject+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NullSafe.h"; sourceTree = "<group>"; };
+		0DE4D9961F25B56200F38781 /* NSObject+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NullSafe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +85,58 @@
 			isa = PBXGroup;
 			children = (
 				0DE4D97A1F25B50100F38781 /* main.m */,
+				0DE4D9811F25B56200F38781 /* objcClass */,
+				0DE4D9841F25B56200F38781 /* objcRuntime */,
+				0DE4D98B1F25B56200F38781 /* objcBlock */,
+				0DE4D98C1F25B56200F38781 /* MBNullSafe */,
 			);
 			path = "XWObjective-C";
+			sourceTree = "<group>";
+		};
+		0DE4D9811F25B56200F38781 /* objcClass */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4D9821F25B56200F38781 /* XWPerson.h */,
+				0DE4D9831F25B56200F38781 /* XWPerson.m */,
+			);
+			path = objcClass;
+			sourceTree = "<group>";
+		};
+		0DE4D9841F25B56200F38781 /* objcRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4D9851F25B56200F38781 /* NSObject+Model.h */,
+				0DE4D9861F25B56200F38781 /* NSObject+Model.m */,
+				0DE4D9871F25B56200F38781 /* XWExecuter.h */,
+				0DE4D9881F25B56200F38781 /* XWExecuter.m */,
+				0DE4D9891F25B56200F38781 /* XWobjcBlock.h */,
+				0DE4D98A1F25B56200F38781 /* XWobjcBlock.m */,
+			);
+			path = objcRuntime;
+			sourceTree = "<group>";
+		};
+		0DE4D98B1F25B56200F38781 /* objcBlock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = objcBlock;
+			sourceTree = "<group>";
+		};
+		0DE4D98C1F25B56200F38781 /* MBNullSafe */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4D98D1F25B56200F38781 /* NSArray+NullSafe.h */,
+				0DE4D98E1F25B56200F38781 /* NSArray+NullSafe.m */,
+				0DE4D98F1F25B56200F38781 /* NSMutableArray+NullSafe.h */,
+				0DE4D9901F25B56200F38781 /* NSMutableArray+NullSafe.m */,
+				0DE4D9911F25B56200F38781 /* NSMutableDictionary+NullSafe.h */,
+				0DE4D9921F25B56200F38781 /* NSMutableDictionary+NullSafe.m */,
+				0DE4D9931F25B56200F38781 /* NSNull+NullSafe.h */,
+				0DE4D9941F25B56200F38781 /* NSNull+NullSafe.m */,
+				0DE4D9951F25B56200F38781 /* NSObject+NullSafe.h */,
+				0DE4D9961F25B56200F38781 /* NSObject+NullSafe.m */,
+			);
+			path = MBNullSafe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DE4D99A1F25B56200F38781 /* XWobjcBlock.m in Sources */,
+				0DE4D99C1F25B56200F38781 /* NSMutableArray+NullSafe.m in Sources */,
+				0DE4D9981F25B56200F38781 /* NSObject+Model.m in Sources */,
 				0DE4D97B1F25B50100F38781 /* main.m in Sources */,
+				0DE4D99E1F25B56200F38781 /* NSNull+NullSafe.m in Sources */,
+				0DE4D99F1F25B56200F38781 /* NSObject+NullSafe.m in Sources */,
+				0DE4D9971F25B56200F38781 /* XWPerson.m in Sources */,
+				0DE4D99B1F25B56200F38781 /* NSArray+NullSafe.m in Sources */,
+				0DE4D9991F25B56200F38781 /* XWExecuter.m in Sources */,
+				0DE4D99D1F25B56200F38781 /* NSMutableDictionary+NullSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
